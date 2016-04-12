@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root>
+  <movie name="zy-interaction.avi" />
+  <roi x="79" y="192" w="380" h="291"/>
+  <template x="362" y="221" w="95" h="159"/>
+  <newmovie start="108" end="500" />
+  <spot inpaint="no" x="370" y="272" w="12" h="13" inp="10" start="80" end="140" radius="40" />
+  <enhance smooth="10" deviation="5" denoise="3" />
+  <contrast clahelimit="0.1" clahex="10" clahey="10"/>
+  <scalebar mag="60" size="50" />
+  <ffmpeg deinterlace="yes" output="zy-interaction-stab.avi" />
+  <preview raw="no" stabilize="yes" enhance="yes"/>
+
+</root>
