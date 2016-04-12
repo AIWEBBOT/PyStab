@@ -1,9 +1,7 @@
 PyStab
 =======
 
-Jan. 2016, F. Mompiou, CEMES-CNRS.
-
-Largely inspired by the original work of L. Dupuy and insitu7 c++
+A program used mainly to stabilize a movie. It uses Python OpenCV and is largely inspired by the original work of L. Dupuy and insitu7 c++
 program (laurent.dupuy@cea.fr).
 
 Requirements
